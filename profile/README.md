@@ -1,1 +1,93 @@
 
+<div align="center">
+
+# 🌉 Patent AI (R&D Bridge)
+
+**"기술과 산업의 단절을 잇는 AI 기반 휴면 특허 매칭 플랫폼"**
+<br>
+<i>Connect dormant patents with industrial needs through Data-Driven Intelligence.</i>
+
+<br>
+
+[![Visit Service](https://img.shields.io/badge/Demo-Visit%20Service-blue?style=for-the-badge&logo=vercel&logoColor=white)](https://귀하의_배포_링크)
+[![Presentation](https://img.shields.io/badge/Doc-Presentation-orange?style=for-the-badge&logo=googleslides&logoColor=white)](https://귀하의_발표자료_링크)
+
+</div>
+
+---
+
+## 🧐 Problem Definition: "The Island Effect"
+
+대한민국 대학 및 공공연의 특허 활용률은 **33.7%**에 불과합니다. 나머지 **66%**는 연구실 캐비닛 속에 잠들어 있는 **'휴면 특허(Dormant Patent)'**입니다.
+
+우리는 이 문제의 원인을 **물리적 거리가 아닌 '언어와 정보의 단절'**로 정의했습니다.
+* **대학(Supply):** 기술적 전문 용어 사용 ("광학 간섭 기반 초정밀 센싱")
+* **기업(Demand):** 비즈니스적 니즈 언어 사용 ("불량률 0%를 위한 검사 장비")
+
+**Patent AI**는 이 언어 장벽을 허물고, 기업이 필요로 하는 기술을 데이터 기반으로 찾아주는 **수요 견인형(Demand-Driven) 매칭 플랫폼**입니다.
+
+---
+
+## 💡 Key Solution: "Disconnect Index (DI)"
+
+우리는 정성적인 매칭을 넘어, 기술과 산업의 괴리를 수치화한 자체 지표 **'단절 지수(Disconnect Index)'**를 고안했습니다.
+
+$$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
+
+> **$DI$가 1.0에 가까울수록 기술 잠재력은 높으나 산업적으로 고립된 '고위험 단절' 상태를 의미합니다.**
+
+* **$W_{pot}$ (기술 잠재력):** TRL 단계, 특허 인용 지수, 잔여 수명 기반 평가
+* **$W_{rel}$ (산업 연관성):** 지역 주력 산업(반도체, 모빌리티 등) 연관도 분석
+* **$A$ (활성화 단계):** 기술이전, 공동연구, NDA 체결 등 '디지털 흔적(Digital Footprint)' 추적
+
+저희 플랫폼은 **DI 지수가 높은 '숨겨진 보석' 같은 특허를 발굴**하여 기업에게 우선적으로 제안합니다.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+최신 웹 기술 트렌드를 선제적으로 도입하여, 성능 최적화와 미래 확장성을 확보했습니다.
+
+### **Frontend (Client)**
+> **"Performance & Future-Proofing"**
+
+| Tech | Version | Reason for Adoption |
+| :--- | :--- | :--- |
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) | **v16.0** | **App Router & Server Actions**를 활용한 최적의 렌더링 성능 확보 |
+| ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) | **v19.2** | 최신 Hook(`useOptimistic`, `useActionState`)을 활용한 **비동기 상태 관리 고도화** |
+| ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | **v4.0** | 차세대 **Oxide Engine** 도입으로 빌드 속도 10배 향상 및 CSS 번들 사이즈 최소화 |
+| ![Shadcn](https://img.shields.io/badge/Shadcn_UI-000000?style=flat-square&logo=shadcnui&logoColor=white) | **Latest** | Radix UI 기반의 **Accessible(접근성 준수)** 컴포넌트 시스템 구축 |
+
+### **Backend & AI (Server)**
+> **"Data-Driven Logic"**
+
+| Tech | Role |
+| :--- | :--- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | 데이터 전처리 및 단절 지수($DI$) 산출 알고리즘 구현 |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | 고성능 비동기 API 서버, LLM 파이프라인 연동 |
+| ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | 비정형 특허 데이터 및 유저 로그(Log) 저장 |
+| **LLM** | 기업의 자연어 니즈("공정 개선")를 기술 키워드("Vision Inspection")로 변환 (Query Expansion) |
+
+---
+
+## 📂 Repositories
+
+* **[`patent-frontend`](https://github.com/Patent-AI/patent-frontend)**: Next.js 16 기반 웹 애플리케이션
+* **[`patent-backend`](https://github.com/Patent-AI/patent-backend)**: FastAPI 서버 및 단절 지수 연산 엔진
+* **[`patent-data-pipeline`](https://github.com/Patent-AI/patent-data-pipeline)**: KIPRIS/NTIS 데이터 수집 및 전처리 스크립트
+
+---
+
+## 👥 Team
+
+| Role | Name | Responsibilities | GitHub |
+| :--- | :--- | :--- | :--- |
+| **Lead & Frontend** | **하태영** | Next.js 아키텍처 설계, UX/UI 구현, 상태 관리 로직 | [@Hottae0](https://github.com/Hottae0) |
+| **AI & Data** | **팀원1** | 단절 지수 알고리즘 설계, 특허 데이터 분석 | [@id](https://github.com/) |
+| **Backend** | **팀원2** | API 개발, DB 설계, 배포 파이프라인 구축 | [@id](https://github.com/) |
+
+---
+
+<div align="center">
+  © 2025 Patent AI Project. All Rights Reserved.
+</div>
