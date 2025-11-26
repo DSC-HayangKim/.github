@@ -72,9 +72,11 @@ $$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
 
 ## 📂 Repositories
 
-* **[`patent-frontend`](https://github.com/Patent-AI/patent-frontend)**: Next.js 16 기반 웹 애플리케이션
-* **[`patent-backend`](https://github.com/Patent-AI/patent-backend)**: FastAPI 서버 및 단절 지수 연산 엔진
-* **[`patent-data-pipeline`](https://github.com/Patent-AI/patent-data-pipeline)**: KIPRIS/NTIS 데이터 수집 및 전처리 스크립트
+| Repository | Description | Key Tech |
+| :--- | :--- | :--- |
+| **[`dsc-project-repository`](https://github.com/DSC-HayangKim/dsc-project-repository)** | **🚀 Main Service**<br>통합 웹 애플리케이션 (Frontend & Backend Core) | Next.js, FastAPI |
+| **[`vector_vis`](https://github.com/DSC-HayangKim/vector_vis)** | **🧠 AI Engine**<br>특허 데이터 벡터화, 크롤러 및 시각화 엔진 | LangChain, Crawler |
+| **[`data-preprocessing`](https://github.com/DSC-HayangKim/data-preprocessing)** | **⚙️ Data Pipeline**<br>KIPRIS/NTIS 원천 데이터 전처리 파이프라인 | Pandas |
 
 ---
 
