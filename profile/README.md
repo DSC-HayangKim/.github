@@ -29,7 +29,7 @@
 
 ## 💡 Key Solution: "Disconnect Index (DI)"
 
-우리는 정성적인 매칭을 넘어, 기술과 산업의 괴리를 수치화한 자체 지표 **'단절 지수(Disconnect Index)'**를 고안했습니다.
+우리는 정성적인 매칭을 넘어, 기술과 산업의 괴리를 수치화한 자체 지표 '단절 지수(Disconnect Index)'를 고안했습니다.
 
 $$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
 
