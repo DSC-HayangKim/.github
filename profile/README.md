@@ -98,7 +98,7 @@ $$PMS = (\alpha \cdot S + \beta \cdot N) \times T_{decay}$$
 
 | Role | Name | Responsibilities | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Lead** | **하태영** | 단절 지수(DI) 알고리즘 설계, 특허 데이터 마이닝, 백엔드 아키텍처 | [@Hottae0](https://github.com/Hottae0) |
+| **Lead** | **하태영** | 알고리즘 설계, 특허 데이터 마이닝, 백엔드 아키텍처 | [@Hottae0](https://github.com/Hottae0) |
 | **Frontend** | **황현석** | Next.js 클라이언트 구현, UX/UI 디자인 시스템 | [@Hy3ons](https://github.com/Hy3ons) |
 
 ---
