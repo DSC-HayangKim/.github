@@ -94,6 +94,11 @@ $$PMS = (\alpha \cdot S + \beta \cdot N) \times T_{decay}$$
 | **Frontend** | **황현석** | Next.js 클라이언트 구현, UX/UI 디자인 시스템
 
 ---
+
+## 시스템 아키텍쳐
+<img width="2204" height="1286" alt="image" src="https://github.com/user-attachments/assets/504dce08-1eff-4b3f-a48f-c2b6c6ab4630" />
+
+
 <div align="center">
   © 2025 Patent AI Project. All Rights Reserved.
 </div>
