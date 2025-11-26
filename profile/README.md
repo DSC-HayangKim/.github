@@ -82,8 +82,8 @@ $$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
 
 | Role | Name | Responsibilities | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Lead** | **하태영** | Next.js 아키텍처 설계, UX/UI 구현, 상태 관리 로직 | [@Hottae0](https://github.com/Hottae0) |
-| **AI & Data** | **황현석** | 단절 지수 알고리즘 설계, 특허 데이터 분석 | [@Hy3ons](https://github.com/Hy3ons) |
+| **Lead** | **하태영** | 단절 지수 알고리즘 설계, 특허 데이터 분석, 특허 시각화 맵 제작| [@Hottae0](https://github.com/Hottae0) |
+| **AI & Data** | **황현석** | Next.js 아키텍처 설계, UX/UI 구현, 상태 관리 로직| [@Hy3ons](https://github.com/Hy3ons) |
 
 ---
 
