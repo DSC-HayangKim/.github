@@ -17,20 +17,20 @@
 
 ## 🧐 Problem Definition: "Prevention, Not Cure"
 
-기존의 기술 이전 방식은 이미 시장 가치를 잃은 오래된 특허(휴면)를 처리하는 데 집중했습니다. 하지만 기업은 **'가장 신선한 최신 기술'**을 원합니다.
+기존의 기술 이전 방식은 이미 시장 가치를 잃은 오래된 특허(휴면)를 처리하는 데 집중했습니다. 하지만 기업은 '가장 신선한 최신 기술'을 원합니다.
 
-저희는 KAIST, 충남대학교, ETRI 등 **총 151개 주요 연구 기관**의 데이터를 분석하여, 문제의 본질을 **'골든타임의 상실'**로 재정의했습니다.
+저희는 KAIST, 충남대학교, ETRI 등 **총 151개 주요 연구 기관**의 데이터를 분석하여, 문제의 본질을 '골든타임의 상실'로 재정의했습니다.
 
 * **Supply (대학/연):** 기술적 전문 용어 사용 (예: "광학 간섭 기반 초정밀 센싱")
 * **Demand (기업):** 비즈니스적 니즈 언어 사용 (예: "불량률 0%를 위한 검사 장비")
 
-**Patent AI**는 이 언어 장벽을 허물고, 등록 1년 이내의 최신 특허를 기업에게 선제적으로 제안하여 **휴면 특허 발생 자체를 예방(Prevention)**하는 플랫폼입니다.
+**Patent AI**는 이 언어 장벽을 허물고, 등록 1년 이내의 최신 특허를 기업에게 선제적으로 제안하여 휴면 특허 발생 자체를 예방(Prevention)하는 플랫폼입니다.
 
 ---
 
 ## 💡 Key Solution: "Golden Time Protected Matching Score (GT-PMS)"
 
-저희는 단순히 유사도만 보는 것이 아니라, 기술의 '신선도(Recency)'를 핵심 가치로 둔 **'골든타임 보호 매칭 스코어'**를 고안했습니다.
+저희는 단순히 유사도만 보는 것이 아니라, 기술의 '신선도(Recency)'를 핵심 가치로 둔 '골든타임 보호 매칭 스코어'를 고안했습니다.
 
 $$PMS = (\alpha \cdot S + \beta \cdot N) \times T_{decay}$$
 
@@ -45,7 +45,7 @@ $$PMS = (\alpha \cdot S + \beta \cdot N) \times T_{decay}$$
     * $t \le 18$ (1.5년 이내): **1.0 (감점 없음, 골든타임 보호)**
     * $t > 18$ (1.5년 경과): **$e^{-\lambda(t-18)}$ (지수 함수적 감점 적용)**
 
-저희 플랫폼은 **GT-PMS 점수가 높은 '갓 등록된 우수 특허'**를 기업에게 최우선으로 노출합니다.
+저희 플랫폼은 GT-PMS 점수가 높은 '갓 등록된 우수 특허'를 기업에게 최우선으로 노출합니다.
 
 ---
 
@@ -102,10 +102,6 @@ $$PMS = (\alpha \cdot S + \beta \cdot N) \times T_{decay}$$
 | **Frontend** | **황현석** | Next.js 클라이언트 구현, UX/UI 디자인 시스템 | [@Hy3ons](https://github.com/Hy3ons) |
 
 ---
-
-## 시스템 아키텍쳐
-<img width="2204" height="1286" alt="image" src="https://github.com/user-attachments/assets/504dce08-1eff-4b3f-a48f-c2b6c6ab4630" />
-
 
 <div align="center">
   © 2025 Patent AI Project. All Rights Reserved.
