@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🌉 Patent AI (R&D Bridge)
@@ -59,14 +58,15 @@ $$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
 | ![Shadcn](https://img.shields.io/badge/Shadcn_UI-000000?style=flat-square&logo=shadcnui&logoColor=white) | **Latest** | Radix UI 기반의 **Accessible(접근성 준수)** 컴포넌트 시스템 구축 |
 
 ### **Backend & AI (Server)**
-> **"Data-Driven Logic"**
+> **"Robustness & Scalability"**
 
-| Tech | Role |
-| :--- | :--- |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | 데이터 전처리 및 단절 지수($DI$) 산출 알고리즘 구현 |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | 고성능 비동기 API 서버, LLM 파이프라인 연동 |
-| ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | 비정형 특허 데이터 및 유저 로그(Log) 저장 |
-| **LLM** | 기업의 자연어 니즈("공정 개선")를 기술 키워드("Vision Inspection")로 변환 (Query Expansion) |
+| Tech | Version | Role |
+| :--- | :--- | :--- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **v3.13** | 최신 안정 버전을 기반으로 한 **비동기 데이터 처리 및 단절 지수 연산** |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | **Standard** | **Streaming Response**를 지원하는 고성능 비동기 API 서버 구축 |
+| ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) | **Hybrid** | OpenAI(GPT-4o)와 Ollama(Local)를 오가는 **하이브리드 AI 에이전트** 설계 |
+| ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | **pgvector** | 정형 데이터(RDB)와 특허 벡터(Vector Store)를 통합 관리하여 **RAG 검색 최적화** |
+| ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) | **Cov 90%+** | Mocking 및 Integration Test를 통한 **엔터프라이즈급 안정성 확보** |
 
 ---
 
@@ -82,12 +82,11 @@ $$DI = 1 - \frac{\text{Realized Value}}{\text{Potential Value}}$$
 
 | Role | Name | Responsibilities | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Lead & Frontend** | **하태영** | Next.js 아키텍처 설계, UX/UI 구현, 상태 관리 로직 | [@Hottae0](https://github.com/Hottae0) |
-| **AI & Data** | **팀원1** | 단절 지수 알고리즘 설계, 특허 데이터 분석 | [@id](https://github.com/) |
-| **Backend** | **팀원2** | API 개발, DB 설계, 배포 파이프라인 구축 | [@id](https://github.com/) |
+| **Lead** | **하태영** | Next.js 아키텍처 설계, UX/UI 구현, 상태 관리 로직 | [@Hottae0](https://github.com/Hottae0) |
+| **AI & Data** | **황현석** | 단절 지수 알고리즘 설계, 특허 데이터 분석 | [@Hy3ons](https://github.com/Hy3ons) |
 
 ---
 
 <div align="center">
-  © 2025 Patent AI Project. All Rights Reserved.
+  © 2025 Patent AI Project. All Rights Reserved.
 </div>
